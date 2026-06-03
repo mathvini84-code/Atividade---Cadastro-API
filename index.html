@@ -8,19 +8,35 @@
 </head>
 <body>
     <main>
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
+        <form>
+            <div class="UserInfo">
+                <h1>Cadastro de Usuário</h1>
+                    <label for="nome">Nome </label>
+                    <input id="nome" type="text" placeholder="Insira seu nome aqui:" required>
+                    <label for="sobrenome">Sobrenome </label>
+                    <input id="sobrenome" type="text" placeholder="Insira seu Sobrenome aqui:" required>
+                    <label for="email">E-mail </label>
+                    <input id="email" type="text" placeholder="Insira seu E-mail aqui:" required>
+                    <label for="telefone">Telefone </label>
+                    <input id="telefone" type="text" placeholder="Insira seu telefone aqui:" required>
+            </div>
+            <div class="AdressInfo">
+                <h1>Cadastro de endereço</h1>
+                    <label for="cep">CEP </label>
+                    <input id="cep" type="number" placeholder="Insira o CEP:" required>
+                    <label for="logradouro">Logradouro </label>
+                    <input id="logradouro" type="text" required>
+                    <label for="bairro">Bairro </label>
+                    <input id="bairro" type="text" required>
+                    <label for="cidade">Cidade </label>
+                    <input id="cidade" type="text" required>
+                    <label for="uf">Estado </label>
+                    <input id="uf" type="text" required>
+                    <label for="numero">Número </label>
+                    <input id="numero" type="text" required>             
+                    <button type="submit" id="cadastro">Cadastrar</button>
+            </div>
+        </form>
         <script src="script.js"></script>
     </main>
 </body>
