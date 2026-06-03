@@ -1,0 +1,74 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg: #352d3a;
+    --fontcolor: #f9f9f9;
+    --border: #43197a;
+    --shadow: 0 8px 32px rgba(0,0,0,0.75);
+    --FontHeadings: "Arial Black", "Arial Bold";
+}
+
+body {
+    background: #1b1b1b;
+    color: var(--fontcolor);    
+}
+
+.userInfo {
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    margin: 70px 500px 0px 500px;
+    padding: 30px 20px 30px 20px ;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    gap: 10px;
+    user-select: none;
+    align-items: center;
+}
+
+.userInfo h1 {
+    margin-bottom: 25px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    font-family: sans-serif;
+}
+
+.adressInfo {
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    margin: 1% 500px 50px 500px;
+    padding: 30px 20px 30px 20px ;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    gap: 10px;
+    user-select: none;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background: var(--border);
+    border-radius: 20px;
+    font-size: large;
+    color: #b3b1b1;
+}
+
+button:hover {
+    background-color: #361463;
+}
