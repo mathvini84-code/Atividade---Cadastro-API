@@ -56,17 +56,17 @@ document.getElementById("cep").addEventListener("blur", (evento) => {
 //criando o objeto usuario para salvar no localStorage
 
 const usuario = {
-    Nome:document.getElementById("nome").value,
-    Sobrenome:document.getElementById("sobrenome").value,
-    Email:document.getElementById("email").value,
-    Telefone:document.getElementById("telefone").value,
+    nome:document.getElementById("nome").value,
+    sobrenome:document.getElementById("sobrenome").value,
+    email:document.getElementById("email").value,
+    telefone:document.getElementById("telefone").value,
 
-    Cep:document.getElementById("cep").value,
-    Logradouro:document.getElementById("logradouro").value,
-    Bairro:document.getElementById("bairro").value,
-    Cidade:document.getElementById("cidade").value,
-    Estado:document.getElementById("uf").value,
-    Numero:document.getElementById("numero").value,
+    cep:document.getElementById("cep").value,
+    logradouro:document.getElementById("logradouro").value,
+    bairro:document.getElementById("bairro").value,
+    cidade:document.getElementById("cidade").value,
+    uf:document.getElementById("uf").value,
+    numero:document.getElementById("numero").value,
 };
 
     localStorage.setItem("cadastroPessoal", JSON.stringify(usuario));
